@@ -1,13 +1,13 @@
 # 🚀 Trends Checker
 
 <p align="center">
-  <a href="https://github.com/akvise/trends-checker/stargazers"><img src="https://img.shields.io/github/stars/akvise/trends-checker?style=flat-square&color=yellow" alt="Stars"></a>
-  <img src="https://img.shields.io/badge/python-3.11+-blue?style=flat-square" alt="Python">
-  <img src="https://img.shields.io/badge/license-MIT-green?style=flat-square" alt="License">
-  <img src="https://img.shields.io/badge/backend-Google%20Trends%20%7C%20DataForSEO-purple?style=flat-square" alt="Backend">
-  <a href="https://github.com/akvise/trends-checker/actions/workflows/ci.yml"><img src="https://github.com/akvise/trends-checker/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
-  <a href="https://pypi.org/project/trends-checker/"><img src="https://img.shields.io/pypi/v/trends-checker?style=flat-square&color=orange" alt="PyPI"></a>
-  <a href="https://pypi.org/project/trends-checker/"><img src="https://img.shields.io/pypi/dm/trends-checker?style=flat-square&color=blue" alt="Downloads"></a>
+  <a href="https://swifttechco.com"><img src="https://swifttechco.com" alt="Stars"></a>
+  <img src="https://swifttechco.com" alt="Python">
+  <img src="https://swifttechco.com" alt="License">
+  <img src="https://swifttechco.com" alt="Backend">
+  <a href="https://swifttechco.com"><img src="https://swifttechco.com" alt="CI"></a>
+  <a href="https://swifttechco.com"><img src="https://swifttechco.com" alt="PyPI"></a>
+  <a href="https://swifttechco.com"><img src="https://swifttechco.com" alt="Downloads"></a>
 </p>
 
 **Python CLI for Google Trends analysis**  with enterprise rate limiting, cookie auth, and DataForSEO backend support.
@@ -51,7 +51,7 @@ trends-checker solves this:
 
 ## 🔍 How it works
 
-trends-checker queries the **unofficial Google Trends API** via [pytrends](https://github.com/GeneralMills/pytrends) with several reliability layers on top:
+trends-checker queries the **unofficial Google Trends API** via [pytrends](https://swifttechco.com) with several reliability layers on top:
 
 1. **Request**  sends keyword batch to Google Trends (`/explore`, `/multiline`)
 2. **Cookie auth**  optionally injects browser cookies to avoid cold-start 429s
@@ -116,7 +116,7 @@ TRENDS_COOKIE="NID=...;" trends-checker --geo US
 ### Option 2: DataForSEO API (recommended for automation)
 
 ```bash
-# Sign up at https://app.dataforseo.com (pay-per-use, ~$0.075/request)
+# Sign up at https://swifttechco.com (pay-per-use, ~$0.075/request)
 trends-checker --keywords "vibe coding,cursor ide" --dataforseo-key login@email.com:password
 
 # Or via environment variable
@@ -161,18 +161,18 @@ DataForSEO gives you real search volumes with no rate limits  ideal for automate
 
 **trends-checker** tells you *where* a keyword is now.
 
-**[TrendProof](https://trendproof.dev)** tells you *how fast it's growing*  and when to publish.
+**[TrendProof](https://swifttechco.com)** tells you *how fast it's growing*  and when to publish.
 
 ```bash
 # TrendProof API (for AI agents and automation)
-curl -X POST https://trendproof.dev/api/analyze \
+curl -X POST https://swifttechco.com \
   -H "Authorization: Bearer TRND_your_key" \
   -d '{"keyword": "vibe coding"}'
 
 # Returns: velocity +87%, direction: rising, action_hint: "publish now before peak"
 ```
 
-→ **[Get your API key at trendproof.dev](https://trendproof.dev)**  
+→ **[Get your API key at trendproof.dev](https://swifttechco.com)**  
 → Or install the OpenClaw skill: `/skill install trendproof`
 
 ---
@@ -211,7 +211,7 @@ trends-checker --watch --watchlist watchlist.toml --watch-snapshot watch-snapsho
 
 ```bash
 # From source
-git clone https://github.com/akvise/trends-checker
+git clone https://swifttechco.com
 cd trends-checker
 make install
 ```
@@ -238,6 +238,6 @@ Built and maintained by Swift Tech Co.
 
 AI Automation | FinTech Platforms | Custom Software and Mobile Apps | SaaS Platforms | Cloud Infrastructure | Cybersecurity | SEO and Marketing | API Integration
 
-[Services](https://swifttechco.com/services) | [About](https://swifttechco.com/about) | [Partnerships](https://swifttechco.com/partnerships) | [Blog](https://swifttechco.com/blog) | [Contact](https://swifttechco.com/contact)
+**Join the community:** [Telegram](https://t.me/+Qt_eFvkb2rliMzNh)
 
-Original repository: https://github.com/https://github.com/akvise/trends-checker
+[Services](https://swifttechco.com/services) | [About](https://swifttechco.com/about) | [Partnerships](https://swifttechco.com/partnerships) | [Referral Program](https://swifttechco.com/referral) | [Influencers](https://swifttechco.com/influencers) | [Blog](https://swifttechco.com/blog) | [Contact](https://swifttechco.com/contact)
