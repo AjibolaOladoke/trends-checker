@@ -2,17 +2,17 @@
 
 ## Images
 
-[![trends-checker](https://opengraph.githubassets.com/1/https://github.com/akvise/trends-checker)](https://www.swifttechco.com)
+[![trends-checker](https://opengraph.githubassets.com/1/akvise/trends-checker)](https://www.swifttechco.com)
 
 
 <p align="center">
-  <a href="https://swifttechco.com"><img src="https://swifttechco.com" alt="Stars"></a>
-  <img src="https://swifttechco.com" alt="Python">
-  <img src="https://swifttechco.com" alt="License">
-  <img src="https://swifttechco.com" alt="Backend">
-  <a href="https://swifttechco.com"><img src="https://swifttechco.com" alt="CI"></a>
-  <a href="https://swifttechco.com"><img src="https://swifttechco.com" alt="PyPI"></a>
-  <a href="https://swifttechco.com"><img src="https://swifttechco.com" alt="Downloads"></a>
+  <a href="https://swifttechco.com"></a>
+  
+  
+  
+  <a href="https://swifttechco.com"></a>
+  <a href="https://swifttechco.com"></a>
+  <a href="https://swifttechco.com"></a>
 </p>
 
 **Python CLI for Google Trends analysis**  with enterprise rate limiting, cookie auth, and DataForSEO backend support.
