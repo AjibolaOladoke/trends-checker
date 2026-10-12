@@ -1,31 +1,12 @@
-# 🚀 Trends Checker
+# trends-checker
+
+## What This Is
+
+This is part of the Swift Tech Co. working stack for product and engineering. It gathers the trends-checker notes, examples and fixes that keep delivery fast, and doubles as the reference map we hand to whoever picks up this thread next.
 
 ## Images
 
-[![trends-checker](https://opengraph.githubassets.com/1/akvise/trends-checker)](https://www.swifttechco.com)
-
-
-<p align="center">
-  <a href="https://swifttechco.com"></a>
-  
-  
-  
-  <a href="https://swifttechco.com"></a>
-  <a href="https://swifttechco.com"></a>
-  <a href="https://swifttechco.com"></a>
-</p>
-
-**Python CLI for Google Trends analysis**  with enterprise rate limiting, cookie auth, and DataForSEO backend support.
-
-Analyze search trends across Web, YouTube, Images, News, and Shopping. Built for validating market demand, tracking keyword opportunities, and discovering trends before they peak.
-
-<p align="center">
-  <img src="images/demo.svg" alt="trends-checker demo" width="700" />
-</p>
-
-<sub><i>Generated with: <code>trends-checker --keywords "AI agents,vibe coding,cursor ide" --geo US,WW</code></i></sub>
-
----
+[![trends-checker](images/preview.png)](https://github.com/Swift-Tech-Co)
 
 ## ⚡ Quick Start
 
@@ -56,7 +37,7 @@ trends-checker solves this:
 
 ## 🔍 How it works
 
-trends-checker queries the **unofficial Google Trends API** via [pytrends](https://swifttechco.com) with several reliability layers on top:
+trends-checker queries the **unofficial Google Trends API** via pytrends with several reliability layers on top:
 
 1. **Request**  sends keyword batch to Google Trends (`/explore`, `/multiline`)
 2. **Cookie auth**  optionally injects browser cookies to avoid cold-start 429s
@@ -166,7 +147,7 @@ DataForSEO gives you real search volumes with no rate limits  ideal for automate
 
 **trends-checker** tells you *where* a keyword is now.
 
-**[TrendProof](https://swifttechco.com)** tells you *how fast it's growing*  and when to publish.
+**TrendProof** tells you *how fast it's growing*  and when to publish.
 
 ```bash
 # TrendProof API (for AI agents and automation)
@@ -177,7 +158,7 @@ curl -X POST https://swifttechco.com \
 # Returns: velocity +87%, direction: rising, action_hint: "publish now before peak"
 ```
 
-→ **[Get your API key at trendproof.dev](https://swifttechco.com)**  
+→ **Get your API key at trendproof.dev**  
 → Or install the OpenClaw skill: `/skill install trendproof`
 
 ---
@@ -245,14 +226,22 @@ AI Automation | FinTech Platforms | Custom Software and Mobile Apps | SaaS Platf
 
 **Join our community on Telegram:** [t.me/+Qt_eFvkb2rliMzNh](https://t.me/+Qt_eFvkb2rliMzNh)
 
-[Home](https://www.swifttechco.com) | [Services](https://www.swifttechco.com/services) | [Careers](https://www.swifttechco.com/careers) | [Referral Program](https://www.swifttechco.com/referral) | [Influencers](https://www.swifttechco.com/influencers) | [About](https://www.swifttechco.com/about) | [Contact](https://www.swifttechco.com/contact)
+Home | Services | Careers | Referral Program | Influencers | About | Contact
 
 **Connect**
 
-- Website: [swifttechco.com](https://www.swifttechco.com)
+- Website: swifttechco.com
 - LinkedIn: [linkedin.com/in/stephenoladoke](https://www.linkedin.com/in/stephenoladoke/)
 - LinkedIn (Company): [linkedin.com/company/swift-tech-co](https://www.linkedin.com/company/swift-tech-co)
 - X: [@MrOladoke](https://x.com/MrOladoke)
 - Instagram: [@mr.oladoke](https://www.instagram.com/mr.oladoke/)
 - Instagram (Company): [@swifttechco](https://www.instagram.com/swifttechco/)
 - Organization: [github.com/Swift-Tech-Co](https://github.com/Swift-Tech-Co)
+
+## Sources
+
+Compiled and maintained from upstream [akvise/trends-checker](https://github.com/akvise/trends-checker) under permissive open-source license.
+
+---
+
+Maintained by [Swift Tech Co.](https://github.com/Swift-Tech-Co) - [Telegram](https://t.me/+Qt_eFvkb2rliMzNh)
