@@ -6,7 +6,7 @@ This is part of the Swift Tech Co. working stack for product and engineering. It
 
 ## Images
 
-[![trends-checker](images/preview.png)](https://github.com/Swift-Tech-Co)
+[![trends-checker](images/preview.png)](https://github.com/Swift-Tech-Co/trends-checker)
 
 ## ⚡ Quick Start
 
@@ -102,7 +102,7 @@ TRENDS_COOKIE="NID=...;" trends-checker --geo US
 ### Option 2: DataForSEO API (recommended for automation)
 
 ```bash
-# Sign up at https://swifttechco.com (pay-per-use, ~$0.075/request)
+# Sign up at https://github.com/Swift-Tech-Co/trends-checker (pay-per-use, ~$0.075/request)
 trends-checker --keywords "vibe coding,cursor ide" --dataforseo-key login@email.com:password
 
 # Or via environment variable
@@ -151,7 +151,7 @@ DataForSEO gives you real search volumes with no rate limits  ideal for automate
 
 ```bash
 # TrendProof API (for AI agents and automation)
-curl -X POST https://swifttechco.com \
+curl -X POST https://github.com/Swift-Tech-Co/trends-checker \
   -H "Authorization: Bearer TRND_your_key" \
   -d '{"keyword": "vibe coding"}'
 
@@ -197,7 +197,7 @@ trends-checker --watch --watchlist watchlist.toml --watch-snapshot watch-snapsho
 
 ```bash
 # From source
-git clone https://swifttechco.com
+git clone https://github.com/Swift-Tech-Co/trends-checker
 cd trends-checker
 make install
 ```
@@ -230,13 +230,21 @@ Home | Services | Careers | Referral Program | Influencers | About | Contact
 
 **Connect**
 
-- Website: swifttechco.com
+- Website: https://github.com/Swift-Tech-Co/trends-checker
 - LinkedIn: [linkedin.com/in/stephenoladoke](https://www.linkedin.com/in/stephenoladoke/)
 - LinkedIn (Company): [linkedin.com/company/swift-tech-co](https://www.linkedin.com/company/swift-tech-co)
 - X: [@MrOladoke](https://x.com/MrOladoke)
 - Instagram: [@mr.oladoke](https://www.instagram.com/mr.oladoke/)
 - Instagram (Company): [@swifttechco](https://www.instagram.com/swifttechco/)
 - Organization: [github.com/Swift-Tech-Co](https://github.com/Swift-Tech-Co)
+
+## Sources
+
+Compiled and maintained from upstream [akvise/trends-checker](https://github.com/akvise/trends-checker) under permissive open-source license.
+
+---
+
+Maintained by [Swift Tech Co.](https://github.com/Swift-Tech-Co) - [Telegram](https://t.me/+Qt_eFvkb2rliMzNh)
 
 ## Sources
 
